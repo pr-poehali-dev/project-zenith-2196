@@ -19,19 +19,27 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full"
       >
         <img
-          src="/images/mountain-landscape.jpg"
-          alt="Mountain landscape"
+          src="https://cdn.poehali.dev/projects/0be03b5b-e30e-49c0-a4f2-41aa3891d977/files/84d02138-5215-4762-8b3b-fd40f981a52c.jpg"
+          alt="Спортсмен на тренировке"
           className="w-full h-full object-cover"
         />
       </motion.div>
 
-      <div className="relative z-10 text-center text-white">
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ОТКРОЙ
+      <div className="absolute inset-0 bg-black/50 z-[1]" />
+      <div className="relative z-10 text-center text-white px-6">
+        <p className="uppercase tracking-widest text-sm mb-4 opacity-80">Питание для спортсменов</p>
+        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6 leading-tight">
+          МИФ ИЛИ<br />ПРАВДА?
         </h1>
-        <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Исследуй границы дизайна с иммерсивным параллакс-эффектом
+        <p className="text-lg md:text-xl max-w-2xl mx-auto opacity-90 leading-relaxed">
+          Разбираем 4 главных заблуждения о спортивном питании и учим считать БЖУ правильно
         </p>
+        <a
+          href="#myths"
+          className="inline-block mt-10 px-8 py-3 border border-white text-white uppercase tracking-wide text-sm hover:bg-white hover:text-black transition-all duration-300"
+        >
+          Узнать правду
+        </a>
       </div>
     </div>
   );
